@@ -1,0 +1,115 @@
+
+
+
+/* Reset */
+.login_body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #fff0e1, #ffe4c4);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Form Container */
+.login-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.login-form {
+    background: #ffff;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 1.5rem;
+    color: #fd7e14;
+}
+
+.login-form input,
+.login-form textarea {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.login-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fd7e14;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #e96b0a;
+}
+
+.toggle-text {
+    margin-top: 1rem;
+    color: #fd7e14;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.toggle-text:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.login-form input,
+.login-form textarea {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #000;
+    /* 👈 Text color black */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Optional: better contrast */
+}
+
+/* 👇 Placeholder color to black */
+.login-form input::placeholder,
+.login-form textarea::placeholder {
+    color: #000;
+    opacity: 0.6;
+    /* Optional: makes placeholder slightly lighter */
+}

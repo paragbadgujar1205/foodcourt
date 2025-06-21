@@ -1,0 +1,32 @@
+.menu-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .food-img {
+    width: 150px; /* Adjust image size */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .add-to-cart-btn {
+    bottom: -10px; /* Moves button slightly below the image */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    background: white;
+    color: green;
+  }
+  
+.food-item{
+    background: transparent;
+    border: none;
+}

@@ -1,0 +1,90 @@
+/* styles.css */
+html {
+  scroll-behavior: smooth !important;
+}
+.admin-main div{
+  width: 50%;
+  height: 200px;
+  border: 1px solid white;
+  margin: 20px 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(10, 10, 20, 0.527);
+  background: blur(5px);
+  z-index: 9;
+}
+.icons{
+  margin-right: 10px;
+}
+
+.profile{
+  width: 100%;
+  height: 100vh;
+  /* background-image: url('./component/images/man.jpg.jpg');
+  background-size: cover;
+  background: blur(5px); */
+  /* z-index: 9; */
+ background-color:#010914;
+
+
+
+}
+.profile-card {
+  background-color: #242C37;
+  color: white !important;
+  border-radius: 15px !important;
+}
+.side-nav{
+  background-color: aliceblue;
+  min-width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+.side-items{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  height: 70px;
+  cursor: pointer;
+  z-index: 99;
+  padding-left: 20px;
+}
+.main-section{
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100%;
+  z-index: 99;
+  padding: 20px 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  max-width: 150px; /* Fixed width for cells */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; /* Shows ellipsis for overflowed content */
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+td:hover {
+  overflow: auto; /* Allows scrolling on hover */
+  white-space: normal; /* Wraps content */
+  max-height: 80px;
+}
+.table-container{
+  height: 600px;
+}

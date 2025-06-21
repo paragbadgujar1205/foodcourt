@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.row{
+    margin-top: 0;
+    margin: 0;
+    position: relative;
+}
+.navbar{
+    padding-top: 30px !important;
+}
+.navbar-toggler-icon{
+    color: #FEA116!important;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.userInfo{
+    color: #FEA116;
+    font-size: 25px;
+    border: 1px solid #FEA116;
+    border-radius: 50%;
+    padding: 2px 9px;
+    margin: 0 5px;
+}
+
+.subtle {
+    color: #aaa;
+}
+
+.subtle1 {
+    color: black;
+}
+
+.main-card--cointainer {
+    background-color: #010914;
+    width: 100%;
+}
+
+.card-container img {
+    max-width: 100%;
+    height: 250px;
+}
+
+.card {
+    background-color: #6068745d;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
+    z-index: 1;
+}
+
+.card-body {
+    display: inline-block;
+}
+
+.card-number {
+    margin-top: 12px;
+}
+
+.card-circle {
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 12px;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+}
+
+.card-author {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin: 15px 0 0;
+    text-transform: uppercase;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-title {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-description {
+    font-size: 13px;
+    height: 80px;
+    margin: 10px 0;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+}
+
+.card-read {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin: 5px 0 20px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.card-read:after {
+    background-color: #b8bddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 9px;
+    width: 70%;
+}
+
+.card-media {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:800px){
+    .navbar{
+        text-align: left !important;
+    }
+    .nav-btn{
+        display: block;
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:500px){
+    .card-description{
+        display: none;
+    }
+    .cart-icon{
+        margin-left: 0px;
+    }
+}

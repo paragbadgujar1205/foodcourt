@@ -1,0 +1,32 @@
+.card-scale{
+    /* transform: scale(1); Default zoomed-in state */
+    transition: transform 0.3s ease-in-out;
+}
+.card-scale:hover {
+    transform: scale(0.9); /* Zoom in effect */
+  }
+
+.main-card{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+}
+.card-img-top{
+    border-radius: 10px;
+}
+.card-title{
+    color: black;
+}
+.card-text{
+    color: #878787;
+    
+}
+
+.card-img-top {
+    width: 100%;  /* Ensures image fills the card width */
+    height: 200px; /* Fixed height to maintain uniformity */
+    object-fit: cover; /* Ensures image fills the space without distortion */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
